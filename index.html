@@ -3,31 +3,47 @@
 <head>
     <meta charset="utf-8" />
     <title>Eric Hove: About Me</title>
-    <!--Need to link the reset css at some point in the future. Will require me to restyle everything-->
+    <!--Linking to reset css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <!--Linking to Twitter Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  
+    <!--Linking to additional custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
 </head>
 
 <body>
-    <!--Navigation Bar at the top of the page-->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4aaaa5">
-        <a class="navbar-brand" style="color: white;"><h3>Eric Hove</h3></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav"> 
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html" style="color: white;">About Me <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html" style="color: white;">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html" style="color: white;">Contact</a>
-                    </li>
-                </ul>
+
+<header id="customHeader">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: white">
+                        <a class="navbar-brand col-md-3"><h3 id="myNameBig">Eric Hove</h3></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <!--Blank space between logo and links-->
+                            <div class="col-md-5"></div>
+                            <!--The Links-->
+                            <div class="collapse navbar-collapse" id="navbarNav"> 
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                    <a class="nav-link" id="custom-link-color-1" href="index.html">About Me <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" id="custom-link-color-2" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" id="custom-link-color-3" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </nav>
+                </div>
             </div>
-        </nav>
+    </div>
+</header>    
+    <!--Navigation Bar at the top of the page-->
 
  
 
