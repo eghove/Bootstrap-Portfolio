@@ -81,6 +81,30 @@ input[type=button] {
     border: none;
 }
 
+div.gallery {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    width: 277px;
+    height: 202px;
+    border: 1px solid #cccccc;
+}
+
+/*For the labels on the gallery boxes */
+div.description {
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 275px;
+    height: 65px;
+    padding-top: 25px;
+}
+
+
 #stickyFooter {
     clear: both;
     overflow: auto;
