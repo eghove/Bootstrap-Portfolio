@@ -12,11 +12,12 @@ body {
 
 #customHeader {
     background-color: white;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 /*Styling Eric Hove big */
 #myNameBig {
     color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     text-align: center;
     margin: 0 0 0 0;
@@ -24,6 +25,7 @@ body {
 
 /*Styling the color of nav bar links */
 #custom-link-color-1, #custom-link-color-2, #custom-link-color-3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
  }
 
@@ -31,7 +33,9 @@ body {
 .contentHeader {
     color: #4aaaa5;
     border-bottom: solid 2px #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*Styling the border of the nav bar links 
@@ -125,6 +129,6 @@ div.description {
     font-size: 12px;
     position: absolute;
     bottom: 5%;
-    left: 45%;
+    left: 43%;
     color: white;
 }
