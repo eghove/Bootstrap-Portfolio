@@ -14,6 +14,14 @@ body {
     background-color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+/*Remove the padding around the nav bar */
+.custom-nav {
+    padding: 0;
+}
+
+.custom-links {
+    justify-content: center;
+}
 /*Styling Eric Hove big */
 #myNameBig {
     color: white;
