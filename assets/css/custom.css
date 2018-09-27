@@ -20,7 +20,7 @@ body {
 }
 
 .custom-links {
-    justify-content: center;
+    align-items: center;
 }
 /*Styling Eric Hove big */
 #myNameBig {
