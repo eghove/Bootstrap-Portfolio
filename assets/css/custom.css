@@ -19,9 +19,11 @@ body {
     padding: 0;
 }
 
+/*Centering the navigation links on smaller screens, but still looks goofy at 980px */
 .custom-links {
     align-items: center;
 }
+
 /*Styling Eric Hove big */
 #myNameBig {
     color: white;
@@ -36,6 +38,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
  }
+
 
  /*Styles the big text in the wrapper box */
 .contentHeader {
